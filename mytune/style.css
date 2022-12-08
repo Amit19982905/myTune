@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    div.links{
+        display: none;
+    }
+    div.gift-card{
+        flex-direction: column;
+        padding: 3vw;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.overview{
+    width: 100%;
+    height: 50vw;
+    background-image: url(/image/showcase.jpeg);
+    background-size: 98%;
+    text-align: center;
+    color: white;    
+}
+.overview > h1{
+    padding-top: 15vw;
+    font-size: 6vw;
+}
+.overview > p{
+    font-size: 3vw;
+}
+.music{
+    text-align: center;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    padding: 5vw;
+}
+.btn-music{
+    background-color: red;
+    color: white;
+    padding: 1vw;
+    border: none;
+}
+.video{
+    text-align: center;
+    padding: 5vw;
+}
+.btn-video{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1vw;
+}
+.video-bottom{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10% 10%;
+    background-image: url(/image/section-bg.jpeg);
+    color: white;
+    background-position: bottom;
+    background-size: cover;
+}
+.gift-card{
+    padding: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+.gift-card-txt > a{
+    color: black;
+}
+.links{
+    display: flex;
+    padding-top: 1vw;
+    justify-content: space-around;
+    background-color: rgb(16, 14, 14);
+    color: white;
+    
+}
+.copyright{
+    text-align: center;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    height: 5vw;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
